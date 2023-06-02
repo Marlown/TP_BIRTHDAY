@@ -1,0 +1,51 @@
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 0px;
+}
+
+.birthday-wishes{
+    background-color: palevioletred;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.birthday-wishes h2{
+  display: flex;
+  align-items: center;
+ 
+  
+  font-size: 24px;
+  padding: 20px;
+}
+.birthday-wishes svg{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+   
+}
+.quote p{
+    justify-content: center;
+    align-items:flex-start;
+    padding: 0;
+    width: 100%;
+    box-shadow: 5px 5px 10px #555;
+
+}
+.quote svg {
+display: flex;
+  width: 100px;
+  height: 100px;
+  align-items: flex-end;
+  width: 100%;
+  box-shadow: 5px 5px 10px #555;
+  
+}
+
